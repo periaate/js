@@ -72,6 +72,7 @@ func main() {
 			if opts.Errors {
 				panic(err)
 			}
+			continue
 		}
 		str := res.ToString().String()
 		if len(str) != 0 {
